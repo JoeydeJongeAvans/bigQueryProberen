@@ -41,3 +41,4 @@ C:\Users\joeyd\Desktop\Vedr\bigQueryProberen\MyBackend\obj\Debug\net7.0\refint\M
 C:\Users\joeyd\Desktop\Vedr\bigQueryProberen\MyBackend\obj\Debug\net7.0\MyBackend.pdb
 C:\Users\joeyd\Desktop\Vedr\bigQueryProberen\MyBackend\obj\Debug\net7.0\MyBackend.genruntimeconfig.cache
 C:\Users\joeyd\Desktop\Vedr\bigQueryProberen\MyBackend\obj\Debug\net7.0\ref\MyBackend.dll
+C:\Users\joeyd\Desktop\Vedr\bigQueryProberen\MyBackend\bin\Debug\net7.0\cmoefenen-4eea8b75c1ee.json

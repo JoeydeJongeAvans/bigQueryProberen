@@ -1,3 +1,4 @@
+using Google.Apis.Auth.OAuth2;
 using Google.Cloud.BigQuery.V2;
 using Microsoft.OpenApi.Models;
 
@@ -12,7 +13,12 @@ builder.Services.AddSwaggerGen(c =>
 });
 
 // Configure Google Cloud BigQuery
-builder.Services.AddSingleton(_ => BigQueryClient.Create("cmoefenen"));
+builder.Services.AddSingleton(_ =>
+{
+    var projectId = "cmoefenen"; // Replace with your actual Google Cloud project ID
+    var credential = GoogleCredential.FromFile("cmoefenen-4eea8b75c1ee.json");
+    return BigQueryClient.Create(projectId, credential);
+});
 
 var app = builder.Build();
 
